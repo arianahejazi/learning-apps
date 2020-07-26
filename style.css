@@ -2,8 +2,9 @@
 
 :root {
   --tifany: #1DE9B6;
+  --fark-tifany:#00BFA5;
   --magenta: #E91D50;
-  --light-magenta-0:#ffd5df;
+  --light-magenta-0:#ffccd8 ;
   --light-gray-0: #dddd;
   --dark: #2c2c2c;
 
@@ -660,9 +661,9 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* *****Ariana Do********* */
-.field{
-  width: 2em !important;
-  height: 2em!important;
+
+.filled{
+
 }
 
 .highlight{
@@ -711,7 +712,11 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid #dddd!important;
   box-shadow: 0px 0px 7px #c5c5c5!important;
 }
-
+#questionSidePanel div:nth-child(2) {
+  background: #dedede;
+  border-radius: 20px;
+  padding: 10px;
+}
 
 .blink {
   background: #ffd9d9!important;
@@ -720,16 +725,49 @@ h1, h2, h3, h4, h5, h6 {
 #questionDisplay input[type=button]{
   padding: 10px 30px!important;
   border-radius: 3px!important;
-  background: #abee8c!important;
+  background: #53eac5!important;
   display: block !important;
   width: 100%!important;
   margin: 35px 0 0!important;
+  border: 2px solid #00ca97;
 }
 
 
 
 
 /* ************Responsive*************** */
-@media (min-width: 768px) {
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {  
+  /* table */
+  .field{
+    width: 3.5em !important;
+    height: 3.5em!important;
+  }
+  .filled{
+    border: 1px solid #9a9a9a!important;
+    background: #fff!important;
+    cursor: pointer!important;
+    border-radius: 5px!important;
+    box-shadow: none!important;
+  }
+  #questionDisplay{
+
+  }
+  /* modal */
+  #questionSidePanel div{
+    background: white;
+    opacity: 1;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+  }
 }
 
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {  }
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {  }
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {  }
