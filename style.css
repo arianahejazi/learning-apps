@@ -1,4 +1,4 @@
-﻿:root {
+:root {
     --blue: #007bff;
     --indigo: #6610f2;
     --purple: #6f42c1;
@@ -27,6 +27,7 @@
     --breakpoint-xl: 1200px;
   }
   body {
+      background: red;
   }
   a {
   }
@@ -51,25 +52,25 @@
   }
   #questionDisplay #contentImage7{
     margin: 0 auto !important;
-    box-shadow: -1px 0px 0px #343434;
+    box-shadow: -1px 0px 0px #343434!important;
     border-radius: 3px;
   }
   #questionDisplay b{
-    text-align: center;
-    display: block;
-    padding: 20px;
+    text-align: center!important;
+    display: block!important;
+    padding: 20px!important;
   }
   #questionDisplay #eingabe{
-    border: 1px solid #dddd;
-    padding: 10px 30px;
-    border-radius: 3px;
-    background: #fbe2d1;
+    border: 1px solid #dddd;!important;
+    padding: 10px 30px!important;
+    border-radius: 3px!important;
+    background: #fbe2d1!important;
   }
   #questionDisplay .field {
-    float: left;
-    margin-bottom: 3px;
-    border: 1px solid #dddd;
-    box-shadow: 0px 0px 7px #c5c5c5;
+    float: left!important;
+    margin-bottom: 3px!important;
+    border: 1px solid #ddd !important;
+    box-shadow: 0px 0px 7px #c5c5c5!important;
   }
 
   .blink {
@@ -77,12 +78,12 @@
   }
 
   #questionDisplay input[type=button]{
-    padding: 10px 30px;
-    border-radius: 3px;
-    background: #abee8c;
+    padding: 10px 30px!important;
+    border-radius: 3px!important;
+    background: #abee8c!important;
     display: block !important;
-    width: 100%;
-    margin: 35px 0 0;
+    width: 100%!important;
+    margin: 35px 0 0!important;
   }
 
 
