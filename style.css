@@ -81,7 +81,7 @@ body.bg-3 {
 /* line 23, ../../app/learningApps-org/base/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: monospace !important;
-  font-weight: normal;
+  font-weight: normal!important;
 }
 
 /* *****Ariana Do********* */
@@ -98,21 +98,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 #AppClientTaskPanel p{
   margin: 0 0 15px !important;
-  color: #2f2f2f;
+  color: #2f2f2f!important;
 }
 #AppClientTaskPanel div{
-  color: #4c4c4c;
-  text-align: justify;
+  color: #4c4c4c!important;
+  text-align: justify!important;
 }
 #AppClientTaskPanel div button{
-  font-size: 120%;
-  width: 100%;
-  margin: 25px 0 0;
-  padding: 5px;
-  border: none;
-  color: #fff;
-  background: linear-gradient(338deg, rgba(149,130,255,1) 0%, rgba(120,176,253,1) 100%);
-  border-radius: 20px;
+  font-size: 120%!important;
+  width: 100%!important;
+  margin: 25px 0 0!important;
+  padding: 5px!important;
+  border: none!important;
+  color: #fff!important;
+  background: linear-gradient(338deg, rgba(149,130,255,1) 0%, rgba(120,176,253,1) 100%)!important;
+  border-radius: 20px!important;
 }
 
 .filled{
@@ -157,8 +157,12 @@ h1, h2, h3, h4, h5, h6 {
 #questionDisplay #eingabe{
   border: 1px solid #dddd!important;
   padding: 10px 30px!important;
-  border-radius: 3px;
+  border-radius:3px!important;
   background: #fbe2d1!important;
+  -webkit-border-radius:3px!important;
+  -moz-border-radius:3px!important;
+  -ms-border-radius:3px!important;
+  -o-border-radius:3px!important;
 }
 #questionDisplay .field {
   float: left!important;
@@ -167,9 +171,9 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0px 0px 7px #c5c5c5!important;
 }
 #questionSidePanel div:nth-child(2) {
-  background: #dedede;
-  border-radius: 20px;
-  padding: 10px;
+  background: #dedede!important;
+  border-radius: 20px!important;
+  padding: 10px!important;
 }
 
 .blink {
@@ -183,7 +187,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block !important;
   width: 100%!important;
   margin: 35px 0 0!important;
-  border: 2px solid #00ca97;
+  border: 2px solid #00ca97!important;
   padding: 15px !important;
 }
 
@@ -210,10 +214,10 @@ h1, h2, h3, h4, h5, h6 {
   }
   /* modal */
   #questionSidePanel div{
-    background: white;
-    opacity: 1;
-    border: 1px solid #e2e2e2;
-    border-radius: 5px;
+    background: #fff!important;
+    opacity: 1!important;
+    border: 1px solid #e2e2e2!important;
+    border-radius: 5px!important;
   }
 }
 
@@ -253,6 +257,26 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 0.3em;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
