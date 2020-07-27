@@ -98,6 +98,7 @@ h1, h2, h3, h4, h5, h6 {
   border-left: 1px solid #dddd!important;
   border-right: 1px solid #dddd!important;
   border-bottom: 1px solid #dddd!important;
+  border: none !important;
   -webkit-border-radius: 3px !important;
   -moz-border-radius: 3px !important;
   -ms-border-radius: 3px !important;
