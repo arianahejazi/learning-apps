@@ -122,14 +122,14 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 20px!important;
 }
 #AppClientTaskPanel div button:hover{
-  opacity: 0.5;
+  opacity: 0.5!important;       
 }
 
 
 /* body */
 #crossword{
   background: #dddddd61;
-  margin: 23% 0;
+  margin: 23% 0!important; 
 }
 
 
@@ -431,7 +431,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 3, ../../app/learningApps-org/components/_card.scss */
 .card {
   max-width: 250px;
-  border: 2px solid white;
+  border: 2px solid #fff;
   padding: 1% !important;
   border-radius: 3px;
   box-sizing: border-box;
