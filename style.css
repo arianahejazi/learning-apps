@@ -98,7 +98,6 @@ h1, h2, h3, h4, h5, h6 {
   border-left: 1px solid #dddd!important;
   border-right: 1px solid #dddd!important;
   border-bottom: 1px solid #dddd!important;
-  border: none !important;
   -webkit-border-radius: 3px !important;
   -moz-border-radius: 3px !important;
   -ms-border-radius: 3px !important;
@@ -128,9 +127,13 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* body */
+#wrapper{
+  background: #41526be0 !important;
+}
 #crossword{
-  background: #dddddd61;
+  background: #dddddd61 !important;
   margin: 23% 0!important; 
+  height: 628px!important; 
 }
 
 
@@ -175,7 +178,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 20px!important;
   font-size: 20px!important;
 }
-#questionDisplay #eingabe{
+/* #questionDisplay #eingabe{
   border: 1px solid #dddd!important;
   padding: 10px 30px!important;
   border-radius:3px!important;
@@ -195,7 +198,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #dedede!important;
   border-radius: 20px!important;
   padding: 10px!important;
-}
+} */
 
 .blink {
   background: #ffd9d9!important;
