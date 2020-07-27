@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* body */
 #wrapper{
-  background: #41526be0 !important;
+  background: #B2DFDB!important;
 }
 #crossword{
   background: #dddddd61 !important;
@@ -90,16 +90,15 @@ h1, h2, h3, h4, h5, h6 {
 
 /* meseage */
 #AppClientTaskPanel{
-  padding: 25px!important;
-  box-shadow: 0px 1px 5px #424242!important;
-  border-radius: 3px !important;
-  background-color: #f3f3f3!important;
-  border-top: 9px solid #ffa537dd!important;
+  border-radius: 8px !important;
+  background-color: #ffffff!important;
+  border-top: 9px solid rgb(255, 158, 0)!important;
   border-left: 1px solid #dddd!important;
   border-right: 1px solid #dddd!important;
   border-bottom: 1px solid #dddd!important;
   margin: 5% 15%!important;
   width: 70% !important;
+  padding: 25px!important
 }
 #AppClientTaskPanel p{
   margin: 0 0 15px !important;
@@ -116,28 +115,50 @@ h1, h2, h3, h4, h5, h6 {
   padding: 5px!important;
   border: none!important;
   color: #fff!important;
-  background: linear-gradient(338deg, rgba(149,130,255,1) 0%, rgba(120,176,253,1) 100%)!important;
+  background: rgb(15, 108, 227);
   border-radius: 20px!important;
+  box-shadow: none !important;
 }
 #AppClientTaskPanel div button:hover{
   opacity: 0.5!important;       
 }
 
 
-/* modal */
-.field {
-
-}
-
-
-/* 
-.filled{
-
-}
-
+/* grid body */
 .highlight{
   background-color: var(--light-magenta-0) !important;
-} */
+}
+.filled{
+  border: 1px solid #b9b9b9!important;
+  background: #fff!important;
+  cursor: pointer!important;
+  border-radius: 5px!important;
+  box-shadow: none!important;
+}
+
+
+
+
+/* modal */
+.field {
+  border: 1px solid #dcdcdcdd!important;
+  background: #E0F2F1!important;
+  color: #263238!important;
+  vertical-align: middle!important;
+  text-align: center!important;
+  padding: 15px!important;
+  font-family: Arial!important;
+  font-weight: bold!important;
+  border-radius: 3px!important;
+  box-shadow: 0px 0px 2px #c5c5c5dd!important;
+  -webkit-border-radius: 3px!important;
+  -moz-border-radius: 3px!important;
+  -ms-border-radius: 3px!important;
+  -o-border-radius: 3px!important;
+}
+
+
+
 
 
 /* #questionSidePanel{
@@ -215,24 +236,19 @@ h1, h2, h3, h4, h5, h6 {
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {  
   /* table */
-  /* .field{
+   .field{
     width: 3.5em !important;
     height: 3.5em!important;
   }
-  .filled{
-    border: 1px solid #9a9a9a!important;
-    background: #fff!important;
-    cursor: pointer!important;
-    border-radius: 5px!important;
-    box-shadow: none!important;
+  #questionDisplay{
+
   }
-  #questionDisplay{ */
   /* } */
   /* modal */
   /* #questionSidePanel div{
     background: #fff!important;
 
-  } */
+  } 
 }
 
 /* // Small devices (landscape phones, less than 768px) */
