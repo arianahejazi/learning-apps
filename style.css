@@ -160,14 +160,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #questionSidePanel{
-  border: none!important;
   box-shadow: none!important;
   border-radius: 8px!important;
+  border: 1px solid #dddd!important;
 }
 #questionSidePanel div:nth-child(1){
   border-radius: 8px!important;
-  border: 1px solid #dddd!important;
-
+  border: none!important;
+  background-color: #ffffff;
 }
 #questionSidePanel div:nth-child(2) img{
   display: none!important;
@@ -213,9 +213,12 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 #questionDisplay .filled{
-  margin: 0 10px!important;
-  background: #ffffff !important;
+  margin: 0 6px!important;
+  background: #fff!important;
   border: 3px solid #1de9b6!important;
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 8px !important;
 
 }
 
