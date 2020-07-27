@@ -186,6 +186,9 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 8px!important;
   padding: 50px!important;
 } 
+.inputElement{
+  border: none !important;
+}
 
 #questionDisplay div img{
   margin: 0 auto !important;
@@ -204,6 +207,12 @@ h1, h2, h3, h4, h5, h6 {
 } 
 
 #questionDisplay div:nth-child(2) div .filled{
+  margin: 0 10px!important;
+  background: #ffffff !important;
+  border: 3px solid #1de9b6!important;
+
+}
+#questionDisplay .filled{
   margin: 0 10px!important;
   background: #ffffff !important;
   border: 3px solid #1de9b6!important;
