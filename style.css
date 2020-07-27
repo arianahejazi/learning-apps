@@ -91,17 +91,15 @@ h1, h2, h3, h4, h5, h6 {
 /* meseage */
 #AppClientTaskPanel{
   padding: 25px!important;
-  box-shadow: 0px 1px 5px #dddd!important;
+  box-shadow: 0px 1px 5px #424242!important;
   border-radius: 3px !important;
-  background-color: #ffff!important;
+  background-color: #f3f3f3!important;
   border-top: 9px solid #ffa537dd!important;
   border-left: 1px solid #dddd!important;
   border-right: 1px solid #dddd!important;
   border-bottom: 1px solid #dddd!important;
-  -webkit-border-radius: 3px !important;
-  -moz-border-radius: 3px !important;
-  -ms-border-radius: 3px !important;
-  -o-border-radius: 3px !important;
+  margin: 40% 15% !important;
+
 }
 #AppClientTaskPanel p{
   margin: 0 0 15px !important;
