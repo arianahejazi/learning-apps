@@ -98,7 +98,8 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 1px solid #dddd!important;
   margin: 5% 15%!important;
   width: 70% !important;
-  padding: 25px!important
+  padding: 25px!important;
+  box-shadow:none !important;
 }
 #AppClientTaskPanel p{
   margin: 0 0 15px !important;
@@ -124,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .filled{
-  background: #fff !important;
+  background: #ffff !important;
 }
 
 
