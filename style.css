@@ -82,7 +82,6 @@ h1, h2, h3, h4, h5, h6 {
   background: #B2DFDB!important;
 }
 #crossword{
-  background: #dddddd61 !important;
   margin: 23% 0!important; 
   height: 628px!important; 
 }
@@ -130,17 +129,14 @@ h1, h2, h3, h4, h5, h6 {
 .highlight{
   background-color: var(--light-magenta-0) !important;
 }
-.filled{
+#innerCrossword table .filled{
   border: 1px solid #b9b9b9!important;
-  background: #fff!important;
+  background: #ffffff  !important;
   cursor: pointer!important;
   border-radius: 5px!important;
   box-shadow: none!important;
 }
-
-
-
-
+   
 /* modal */
 .field {
   border: 1px solid #dcdcdcdd!important;
