@@ -175,11 +175,11 @@ h1, h2, h3, h4, h5, h6 {
 
 #questionDisplay #questionSidePanel img{
   display: none!important;
-  max-height: none;
+  max-height: none!important;
 }
 
 #questionDisplay #questionSidePanel img::after{
-  content:"\f00d";
+  content:"\f00d"!important;
 }
 
 
