@@ -163,6 +163,11 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: none!important;
   border-radius: 8px!important;
   border: 1px solid #dddd!important;
+  background: #ffffff !important;
+}
+#questionSidePanel div{
+  opacity: 1 !important;
+  background: #ffffff !important; 
 }
 #questionSidePanel div:nth-child(1){
   border-radius: 8px!important;
@@ -171,6 +176,13 @@ h1, h2, h3, h4, h5, h6 {
 #questionSidePanel div:nth-child(2) img{
   display: none!important;
   max-height: none!important;
+}
+
+#questionSidePanel div:nth-child(2) img::before{
+  content:"\f00d"!important;
+  background-color: yellow!important;
+  color: red!important;
+  font-weight: bold!important;
 }
 
 #questionSidePanel div img::before{
