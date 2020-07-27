@@ -129,12 +129,16 @@ h1, h2, h3, h4, h5, h6 {
 .highlight{
   background-color: var(--light-magenta-0) !important;
 }
-#innerCrossword table .filled{
+#innerCrossword .filled{
   border: 1px solid #b9b9b9!important;
   background: #ffffff  !important;
   cursor: pointer!important;
   border-radius: 5px!important;
   box-shadow: none!important;
+}
+
+#innerCrossword .filled{
+  background: #ffffff  !important;
 }
    
 /* modal */
