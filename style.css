@@ -174,8 +174,11 @@ h1, h2, h3, h4, h5, h6 {
   max-height: none!important;
 }
 
-#questionSidePanel div:nth-child(2) img:after{
+#questionSidePanel div:nth-child(2) img::before{
   content:"\f00d"!important;
+  background-color: yellow!important;
+  color: red!important;
+  font-weight: bold!important;
 }
 
 #questionDisplay{
