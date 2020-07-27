@@ -167,14 +167,13 @@ h1, h2, h3, h4, h5, h6 {
 #questionSidePanel div:nth-child(1){
   border-radius: 8px!important;
   border: none!important;
-  background-color: #ffffff;
 }
 #questionSidePanel div:nth-child(2) img{
   display: none!important;
   max-height: none!important;
 }
 
-#questionSidePanel div:nth-child(2) img::before{
+#questionSidePanel div img::before{
   content:"\f00d"!important;
   background-color: yellow!important;
   color: red!important;
@@ -191,6 +190,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #questionDisplay div img{
+  background: #ffffff !important;
   margin: 0 auto !important;
   box-shadow: -0.75px 0.1px 0.1px #b6b7b7!important;
   border-radius: 3px!important;
@@ -206,12 +206,6 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 20px!important;
 } 
 
-#questionDisplay div:nth-child(2) div .filled{
-  margin: 0 10px!important;
-  background: #ffffff !important;
-  border: 3px solid #1de9b6!important;
-
-}
 #questionDisplay .filled{
   margin: 0 6px!important;
   background: #fff!important;
@@ -223,9 +217,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.blink {
-  background: #ffd9d9!important;
-}
 
 #questionDisplay input[type=button]{
   font-size: 120%!important;
@@ -267,7 +258,12 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 991.98px) {  }
 
 /* // Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {  }
+@media (max-width: 1199.98px) { 
+  
+  .blink {
+    background: #ffd9d9!important;
+  }
+ }
 
 
 
