@@ -34,8 +34,8 @@ body, html {
 
 /* line 15, ../../app/learningApps-org/base/_base.scss */
 body {
-  font-size: 16px !important;
-  background-color: #f5f5f5 !important;
+  font-size: 20px !important;
+    background-color: #f5f5f5 !important;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #B2DFDB!important;
 }
 #crossword{
-  margin: 15% 0!important; 
+  margin: 10% 0!important; 
   height: 628px!important; 
 }
 
@@ -85,8 +85,6 @@ h1, h2, h3, h4, h5, h6 {
   border-left: 1px solid #dddd!important;
   border-right: 1px solid #dddd!important;
   border-bottom: 1px solid #dddd!important;
-  margin: 5% 15%!important;
-  width: 70% !important;
   padding: 25px!important;
   -webkit-box-shadow:none !important;
           box-shadow:none !important;
@@ -125,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #ffffff  !important;
   cursor: pointer!important;
   border-radius: 5px!important;
-  color: #212121  ;
+  color: #212121;  
   /* box-shadow: none!important; */
 }
    
@@ -188,12 +186,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #questionDisplay div img{
-  background: #ffffff !important;
-  margin: 0 auto !important;
+  background: #fff!important;
+  margin: 0px auto!important;
   border-radius: 3px!important;
-  border: 3px solid #cecece !important;
-  -webkit-box-shadow: 0px 0px 7px 1px #ddd !important;
-          box-shadow: 0px 0px 7px 1px #ddd !important;
+  border: 2px solid #9a9a9a;
 }
 
 #questionDisplay div:nth-child(2){
@@ -257,6 +253,10 @@ opacity: 0.5!important;
     width: 3.5em !important;
     height: 3.5em!important;
   }
+  ##AppClientTaskPanel{
+    margin: 5% 15%!important;
+    width: 70% !important;
+  }
 }
 
 @media screen and (min-width: 40.5em) { 
@@ -265,6 +265,6 @@ opacity: 0.5!important;
     height: 4.5em!important;
   }
   #innerCrossword .filled{
-    padding: 3px !important;
+    padding: 30px !important;
   }
 }
