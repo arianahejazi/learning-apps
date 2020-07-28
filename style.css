@@ -127,6 +127,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* grid body */
 .highlight{
+  animation: blink 1s step-start 0s infinite;
+    -webkit-animation: blink 1s step-start 0s infinite;
   background-color: rgb(253, 122, 145) !important;
 }
 #innerCrossword .filled{
@@ -185,12 +187,6 @@ h1, h2, h3, h4, h5, h6 {
  opacity: 0.5!important;
 }
 
-#questionSidePanel #questionDisplay div:nth-child(2){
-  display: none !important;
-  border: none!important;
-  background: none!important;
-} 
-
 #questionDisplay{
   border:1px solid #b0afaf!important;
   border-radius: 8px!important;
@@ -226,7 +222,17 @@ h1, h2, h3, h4, h5, h6 {
   width: 50px !important;
   height: 50px !important;
   border-radius: 8px !important;
+  padding: 10px !important;
 }
+#questionSidePanel #questionDisplay div:nth-child(2){
+  margin: 0 6px!important;
+  background: #fff!important;
+  border: 3px solid #1de9b6!important;
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 8px !important;
+  padding: 10px !important;
+} 
 
 #questionDisplay input[type=button]{
   font-size: 120%!important;
@@ -240,8 +246,14 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: none !important;
 }
 
+#questionDisplay input[type=button]:hover{
+opacity: 0.5;
+}
+
 .blink {
   background: rgb(255, 187, 76)!important;
+  animation: blink 1s step-start 0s infinite;
+    -webkit-animation: blink 1s step-start 0s infinite;
 }
 
 
