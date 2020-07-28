@@ -173,20 +173,17 @@ h1, h2, h3, h4, h5, h6 {
   border: none!important;
 }
 
+#questionSidePanel div:nth-child(2){
+  border: 1px solid rgb(253, 122, 145)!important;
+  border-radius: 25px!important;
+  padding: 2px!important;
+  margin: 5px!important;
+  background: rgb(253, 122, 145)!important;
+}
 
-#questionSidePanel div img::after{
-  content: "\f235"!important;
-  background-color: white!important;
-  color: rgb(253, 122, 145)!important;
-  font-weight: bold!important;
-  float: right!important;
-  padding: 2px 9px!important;
-  margin: 15px!important;
-  border: 1px solid #fd7a91!important;
-  border-radius: 80px!important;
-  width: 30px!important;
-  height: 30px!important;
-  font-family: cursive!important;
+
+#questionSidePanel div:nth-child(2) img{
+ opacity: 0.5!important;
 }
 
 
