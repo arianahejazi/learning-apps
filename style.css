@@ -167,7 +167,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 #questionSidePanel div{
   opacity: 1 !important;
-  background: #ffffff !important; 
 }
 #questionSidePanel div:nth-child(1){
   border-radius: 8px!important;
@@ -185,6 +184,13 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold!important;
 }
 
+#questionSidePanel div:nth-child(1):after{
+  content:"\f00d"!important;
+  background-color: yellow!important;
+  color: red!important;
+  font-weight: bold!important;
+}
+
 #questionSidePanel div img::before{
   content:"\f00d"!important;
   background-color: yellow!important;
@@ -193,7 +199,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #questionDisplay{
-  border: 1px solid #ddd!important;
+  border:1px solid #b0afaf!important;
   border-radius: 8px!important;
   padding: 50px!important;
 } 
@@ -204,7 +210,7 @@ h1, h2, h3, h4, h5, h6 {
 #questionDisplay div img{
   background: #ffffff !important;
   margin: 0 auto !important;
-  box-shadow: -0.75px 0.1px 0.1px #b6b7b7!important;
+  box-shadow: -1px .1px .1px #b0afaf !important;
   border-radius: 3px!important;
   -webkit-border-radius: 3px!important;
   -moz-border-radius: 3px!important;
