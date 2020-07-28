@@ -197,16 +197,12 @@ h1, h2, h3, h4, h5, h6 {
 } 
 
 #questionDisplay .filled{
-  margin: 0 6px!important;
+  margin: 0px 4px!important;
   background: #fff!important;
-  border: 3px solid #1de9b6!important;
   height: 50px !important;
   border-radius: 2px solid #c1c1c1!important;
   padding: 10px !important;
-  -webkit-border-radius: 2px solid #c1c1c1!important;
-  -moz-border-radius: 2px solid #c1c1c1!important;
-  -ms-border-radius: 2px solid #c1c1c1!important;
-  -o-border-radius: 2px solid #c1c1c1!important;
+
 }
 
 #questionDisplay input[type=button]{
@@ -231,6 +227,13 @@ opacity: 0.5!important;
           box-shadow: 0 0 0px 3px #1de9b6!important; 
 }
 
+@keyframes blink{
+  50%{
+   background-color: #ffffff;
+  }
+}
+
+
 #checkSolutionBtn{
   display: none !important;
 }
@@ -239,9 +242,10 @@ opacity: 0.5!important;
   .field{
     width: 2.5em !important;
     height: 2.5em!important;
+    padding: 10pc !important;
   }
   #questionSidePanel{
-    width: 100%;
+    width: 100%!important;
   }
 }
 
