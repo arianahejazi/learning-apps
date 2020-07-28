@@ -237,7 +237,7 @@ opacity: 0.5!important;
 
 
 /* // Small devices (landscape phones, less than 768px) */
-@media screen and(max-width: 1199.98px)) { 
+@media screen and(max-width: 1199.98px) { 
   body{
     font-size: 30px!important;
   }
