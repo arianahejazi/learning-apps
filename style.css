@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #B2DFDB!important;
 }
 #crossword{
-  margin: 23% 0!important; 
+  margin: 15% 0!important; 
   height: 628px!important; 
 }
 
@@ -153,6 +153,9 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 8px!important;
   border: none!important;
   background: #ffffff !important;
+  transform: translate(-50%, -50%);
+  margin-top: 20% !important;
+  width: 500px !important;
 }
 
 #questionSidePanel div{
@@ -239,8 +242,16 @@ opacity: 0.5!important;
           box-shadow: 0px 0px 0px 2px rgb(0, 173, 130)!important; 
 }
 
+#checkSolutionBtn{
+  background: rgb(239 255 220)!important;
+  box-shadow: 1px 1px 1px #dddd!important;
+  color: #78be20!important;
+  border: 4px solid #78be20!important;
+}
+#checkSolutionBtn:hover{
+  opacity: 0.5!important;
+}
 /* ************Responsive*************** */
- /* // Extra small devices (portrait phones, less than 576px) */ 
 @media screen and (min-width: 28.75em) {
   .field{
     width: 3.5em !important;
@@ -248,16 +259,12 @@ opacity: 0.5!important;
   }
 }
 
-/* // Small devices (landscape phones, less than 768px) */
 @media screen and (min-width: 40.5em) { 
   .field{
-    width: 5em !important;
-    height: 5em!important;
+    width: 4.5em !important;
+    height: 4.5em!important;
   }
   #innerCrossword .filled{
     padding: 3px !important;
-  }
-  #crossword {
-    margin: 15% 0!important;
   }
 }
