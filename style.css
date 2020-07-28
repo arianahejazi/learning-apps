@@ -227,7 +227,7 @@ opacity: 0.5!important;
 
 /* ************Responsive*************** */
  /* // Extra small devices (portrait phones, less than 576px) */
- @media (max-width: 575.98px) {  
+ @media screen and (max-width: 575.98px) {  
   .field{
     width: 3.5em !important;
     height: 3.5em!important;
@@ -237,7 +237,7 @@ opacity: 0.5!important;
 
 
 /* // Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) { 
+@media screen and(max-width: 767.98px) { 
   .field{
     width: 5em !important;
     height: 5em!important;
@@ -245,7 +245,7 @@ opacity: 0.5!important;
 }
 
 /* // Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) { 
+@media screen and(max-width: 991.98px) { 
   #AppClientTaskPanel{
     margin: 5% 24%!important;
     width: 50%!important;
@@ -254,50 +254,21 @@ opacity: 0.5!important;
 
 
 /* // Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) { 
+@media screen and(max-width: 1199.98px) { 
   body{
     font-size: 30px!important;
   }
   .field {
-
     padding: 0.25em !important;
   }
   #AppClientTaskPanel{
-    margin: 5% 38%!important;
+    /* margin: 5% 38%!important;
     width: 25%!important;
     padding: 40px!important;
     box-shadow: none!important;
-    font-size: 18px!important;
+    font-size: 18px!important; */
   }  
     #crossword {
       margin: 5% 0!important;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
