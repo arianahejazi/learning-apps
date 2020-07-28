@@ -173,11 +173,26 @@ h1, h2, h3, h4, h5, h6 {
   border: none!important;
 }
 #questionSidePanel div:nth-child(2) img{
-  display: none!important;
-  max-height: none!important;
+  /* display: none!important; */
+  /* max-height: none!important; */
 }
 
-#questionSidePanel div:nth-child(1):after{
+#questionSidePanel div:nth-child(2) img:after{
+  content: "x"!important;
+  background-color: white!important;
+  color: rgb(253, 122, 145)!important;
+  font-weight: bold!important;
+  float: right!important;
+  padding: 2px 9px!important;
+  margin: 15px!important;
+  border: 1px solid #fd7a91!important;
+  border-radius: 80px!important;
+  width: 30px!important;
+  height: 30px!important;
+  font-family: cursive!important;
+}
+
+/* #questionSidePanel div:nth-child(1):after{
   content: "x"!important;
   background-color: white!important;
   color: rgb(253, 122, 145)!important;
@@ -193,9 +208,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #questionSidePanel #questionDisplay div:nth-child(1):after{
-  content: "x"!important;
+  content: " "!important;
   border: none !important;
-}
+} */
 
 
 #questionDisplay{
@@ -210,7 +225,7 @@ h1, h2, h3, h4, h5, h6 {
 #questionDisplay div img{
   background: #ffffff !important;
   margin: 0 auto !important;
-  box-shadow: -1px .1px .1px #b0afaf !important;
+  box-shadow: -1.5px 0.5px 0.1px #b0afaf!important;
   border-radius: 3px!important;
   -webkit-border-radius: 3px!important;
   -moz-border-radius: 3px!important;
