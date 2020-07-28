@@ -240,12 +240,16 @@ opacity: 0.5!important;
 }
 
 /* ************Responsive*************** */
+ /* // Extra small devices (portrait phones, less than 576px) */ 
+@media screen and (min-width: 28.75em) {
+  .field{
+    width: 3.5em !important;
+    height: 3.5em!important;
+  }
+}
 
 /* // Small devices (landscape phones, less than 768px) */
-@media  (max-width: 1199.98px) { 
-  body{
-    font-size: 30px!important;
-  }
+@media screen and (min-width: 40.5em) { 
   .field{
     width: 5em !important;
     height: 5em!important;
@@ -256,13 +260,4 @@ opacity: 0.5!important;
   #crossword {
     margin: 15% 0!important;
   }
-}
-
- /* // Extra small devices (portrait phones, less than 576px) */
- @media (max-width: 575.98px) {  
-  .field{
-    width: 3.5em !important;
-    height: 3.5em!important;
-  }
-
 }
