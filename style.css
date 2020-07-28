@@ -247,6 +247,9 @@ opacity: 0.5!important;
 }
 
 @media screen and (min-width: 40.5em) { 
+  #questionSidePanel{
+    width: 40%!important;
+  }
   .field{
     width: 4.5em !important;
     height: 4.5em!important;
