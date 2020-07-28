@@ -226,15 +226,15 @@ opacity: 0.5!important;
 
 
 /* ************Responsive*************** */
-
-/* // Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {  
-    .field{
-      width: 3.5em !important;
-      height: 3.5em!important;
-    }
-
+ /* // Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) {  
+  .field{
+    width: 3.5em !important;
+    height: 3.5em!important;
   }
+
+}
+
 
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) { 
@@ -251,6 +251,7 @@ opacity: 0.5!important;
     width: 50%!important;
   }
  }
+
 
 /* // Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) { 
@@ -272,4 +273,31 @@ opacity: 0.5!important;
       margin: 5% 0!important;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
