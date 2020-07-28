@@ -216,12 +216,16 @@ h1, h2, h3, h4, h5, h6 {
 
 #questionDisplay .filled{
   margin: 0 6px!important;
-  /* background: #fff!important; */
-  border: 3px solid #1de9b6!important;
-  /* width: 50px !important; */
-  height: 50px !important;
+  /*background: #fff!important;
+  */border: 3px solid #1de9b6!important;
+  /*width: 50px !important;
+  */height: 50px !important;
   border-radius: 8px !important;
   padding: 10px !important;
+  -webkit-border-radius: 8px !important;
+  -moz-border-radius: 8px !important;
+  -ms-border-radius: 8px !important;
+  -o-border-radius: 8px !important;
 }
 
 #questionDisplay input[type=button]{
@@ -240,20 +244,23 @@ h1, h2, h3, h4, h5, h6 {
 opacity: 0.5!important;
 }
 
-
 .blink {
-  box-shadow: 0px 0px 1px 3px #ffbb4c !important;
-  animation:blinker 0.8 sinfinite ease-in-outa lternate !important;
-  -webkit-animation:blinker 0.8 sinfinite ease-in-outa lternate !important;
+	animation-name: blinker!important;
+	animation-duration: 0.8s!important;
+	animation-iteration-count:infinite!important;
+	animation-timing-function:ease-in-out!important;
+	animation-direction: alternate!important;
+  
 }
 @keyframes blinker {
   from {
-    box-shadow: 0px 0px 0px 3px #ffbb4c !important;
+    box-shadow: 0px 0px 0px 2px #ffbb4c;
     }
   to {
-    box-shadow: 0px 0px 0px 3px #f1d6a9 !important;
+    box-shadow: 0px 0px 0px 2px #ffff;
     }
 }
+
 
 /* ************Responsive*************** */
 
