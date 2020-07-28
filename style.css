@@ -243,22 +243,23 @@ h1, h2, h3, h4, h5, h6 {
 opacity: 0.5!important;
 }
 
-#questionDisplay .filled .blink {
-	animation-name: blinker!important;
+.blink {
+  box-shadow: 0px 0px 0px 2px rgb(0, 173, 130)!important;
+	/* animation-name: blinker!important;
 	animation-duration: 0.8s!important;
 	animation-iteration-count:infinite!important;
 	animation-timing-function:ease-in-out!important;
-	animation-direction: alternate!important;
+	animation-direction: alternate!important; */
   
 }
-@keyframes blinker {
+/* @keyframes blinker {
   from {
     box-shadow: 0px 0px 0px 2px rgb(0, 173, 130);
     }
   to {
     box-shadow: 0px 0px 0px 2px #ffff;
     }
-}
+} */
 
 
 /* ************Responsive*************** */
