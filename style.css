@@ -223,12 +223,15 @@ opacity: 0.5!important;
 
 @keyframes blink{
   50%{
-   background-color: #ffffff;
+   background-color: #ffffff!important; 
   }
 }
 
 
 #checkSolutionBtn{
+  display: none !important;
+}
+#AppClientTaskButton a img{
   display: none !important;
 }
 /* ************Responsive*************** */
