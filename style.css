@@ -127,8 +127,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* grid body */
 #innerCrossword .filled .highlight{
-  animation: blink 1s step-start 0s infinite;
-    -webkit-animation: blink 1s step-start 0s infinite;
   background-color: rgb(253, 122, 145) !important;
 }
 
@@ -175,18 +173,17 @@ h1, h2, h3, h4, h5, h6 {
 #questionSidePanel div:nth-child(1){
   border-radius: 8px!important;
   border: none!important;
+
 }
 
-#questionSidePanel div:nth-child(2){
-  border: 1px solid rgb(253, 122, 145)!important;
-  border-radius: 25px!important;
-  padding: 2px!important;
-  margin: 5px!important;
-  background: rgb(253, 122, 145)!important;
-}
 
 #questionSidePanel div:nth-child(2) img{
- opacity: 0.5!important;
+  opacity: 0.5!important;
+  border-radius: 25px!important;
+  padding: 6px !important;
+  margin: 5px !important;
+  background: rgb(249 42 78)!important;
+
 }
 
 #questionDisplay{
@@ -202,12 +199,13 @@ h1, h2, h3, h4, h5, h6 {
 #questionDisplay div img{
   background: #ffffff !important;
   margin: 0 auto !important;
-  box-shadow: -1.5px -1.5px 0.1px #b0afaf!important;
   border-radius: 3px!important;
-  -webkit-border-radius: 3px!important;
-  -moz-border-radius: 3px!important;
-  -ms-border-radius: 3px!important;
-  -o-border-radius: 3px!important;
+  border-left: 3px solid #cecece !important;
+}
+
+#questionDisplay div:nth-child(2){
+  width: 100% !important;
+  height: 55px!important;
 }
 
 #questionDisplay b{
@@ -219,22 +217,13 @@ h1, h2, h3, h4, h5, h6 {
 
 #questionDisplay .filled{
   margin: 0 6px!important;
-  background: #fff!important;
+  /* background: #fff!important; */
   border: 3px solid #1de9b6!important;
   width: 50px !important;
   height: 50px !important;
   border-radius: 8px !important;
   padding: 10px !important;
 }
-#questionSidePanel #questionDisplay div:nth-child(2){
-  margin: 0 6px!important;
-  background: #fff!important;
-  border: 3px solid #1de9b6!important;
-  width: 50px !important;
-  height: 50px !important;
-  border-radius: 8px !important;
-  padding: 10px !important;
-} 
 
 #questionDisplay input[type=button]{
   font-size: 120%!important;
@@ -254,19 +243,15 @@ opacity: 0.5!important;
 
 
 .blink {
-	text-decoration: blink!important;
-	-webkit-animation-name: blinker!important;
-	-webkit-animation-duration: 0.8s!important;
-	-webkit-animation-iteration-count:infinite!important;
-	-webkit-animation-timing-function:ease-in-out!important;
-	-webkit-animation-direction: alternate!important;
+  box-shadow: 0px 0px 1px 3px #ffbb4c !important;
+  animation:blinker 0.8s infinite ease-in-out alternate ;
 }
 @keyframes blinker {
   from {
-    box-shadow: 0px 0px 0px 2px #ffbb4c!important;
+    box-shadow: 0px 0px 0px 3px #ffbb4c;
     }
   to {
-    box-shadow: 0px 0px 0px 2px #f1d6a9!important;
+    box-shadow: 0px 0px 0px 3px #f1d6a9;
     }
 }
 
