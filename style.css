@@ -162,7 +162,7 @@ h1, h2, h3, h4, h5, h6 {
 #questionSidePanel{
   box-shadow: none!important;
   border-radius: 8px!important;
-  border: 1px solid #dddd!important;
+  border: none!important;
   background: #ffffff !important;
 }
 #questionSidePanel div{
@@ -177,26 +177,26 @@ h1, h2, h3, h4, h5, h6 {
   max-height: none!important;
 }
 
-#questionSidePanel div:nth-child(2) img::before{
-  content:"\f00d"!important;
-  background-color: yellow!important;
-  color: red!important;
-  font-weight: bold!important;
-}
-
 #questionSidePanel div:nth-child(1):after{
-  content:"\f00d"!important;
-  background-color: yellow!important;
-  color: red!important;
+  content: "x"!important;
+  background-color: white!important;
+  color: rgb(253, 122, 145)!important;
   font-weight: bold!important;
+  float: right!important;
+  padding: 2px 9px!important;
+  margin: 15px!important;
+  border: 1px solid #fd7a91!important;
+  border-radius: 80px!important;
+  width: 30px!important;
+  height: 30px!important;
+  font-family: cursive!important;
 }
 
-#questionSidePanel div img::before{
-  content:"\f00d"!important;
-  background-color: yellow!important;
-  color: red!important;
-  font-weight: bold!important;
+#questionSidePanel #questionDisplay div:nth-child(1):after{
+  content: "x"!important;
+  border: none !important;
 }
+
 
 #questionDisplay{
   border:1px solid #b0afaf!important;
