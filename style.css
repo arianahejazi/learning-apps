@@ -9,26 +9,9 @@
 
   --light-red-5:#ffb6b6;
   --light-gray-0: #dddd;
-  --dark: #2c2c2c;
-  --title:#2f2f2f;
+  --dark: #212121;
+  --dark-0:#2f2f2f;
   
-  --pink: #e83e8c;
-  --red: #dc3545;
-  --orange: #fd7e14;
-  --yellow: #ffc107;
-  --green: #28a745;
-  --teal: #20c997;
-  --cyan: #17a2b8;
-  --white: #fff;
-  --gray: #6c757d;
-  --gray-dark: #343a40;
-  --primary: #007bff;
-  --secondary: #6c757d;
-  --success: #28a745;
-  --info: #17a2b8;
-  --warning: #ffc107;
-  --danger: #dc3545;
-  --light: #f8f9fa;
   --breakpoint-xs: 300PX;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -123,24 +106,17 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.5!important;       
 }
 
-
-
 /* grid body */
-#innerCrossword .filled .highlight{
-  background-color: rgb(253, 122, 145) !important;
+.highlight{
+  box-shadow: 0px 0px 0px 2px rgb(253, 122, 145) !important;
 }
-
-
 #innerCrossword .filled{
   border: 1px solid #b9b9b9!important;
   background: #ffffff  !important;
   cursor: pointer!important;
   border-radius: 5px!important;
-  box-shadow: none!important;
-}
-
-#innerCrossword .filled{
-  background: #ffffff  !important;
+  color: #212121  ;
+  /* box-shadow: none!important; */
 }
    
 /* modal */
@@ -167,15 +143,16 @@ h1, h2, h3, h4, h5, h6 {
   border: none!important;
   background: #ffffff !important;
 }
+
 #questionSidePanel div{
   opacity: 1 !important;
 }
+
 #questionSidePanel div:nth-child(1){
   border-radius: 8px!important;
   border: none!important;
 
 }
-
 
 #questionSidePanel div:nth-child(2) img{
   opacity: 0.5!important;
@@ -244,598 +221,55 @@ opacity: 0.5!important;
 }
 
 .blink {
-  box-shadow: 0px 0px 0px 2px rgb(0, 173, 130)!important;
-	/* animation-name: blinker!important;
-	animation-duration: 0.8s!important;
-	animation-iteration-count:infinite!important;
-	animation-timing-function:ease-in-out!important;
-	animation-direction: alternate!important; */
-  
+  box-shadow: 0px 0px 0px 2px rgb(0, 173, 130)!important; 
 }
-/* @keyframes blinker {
-  from {
-    box-shadow: 0px 0px 0px 2px rgb(0, 173, 130);
-    }
-  to {
-    box-shadow: 0px 0px 0px 2px #ffff;
-    }
-} */
 
 
 /* ************Responsive*************** */
 
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {  
-  /* table */
-   .field{
-    width: 3.5em !important;
-    height: 3.5em!important;
-  }
-
+    .field{
+      width: 3.5em !important;
+      height: 3.5em!important;
+    }
 
   }
-
-  /* } */
-  /* modal */
-  /* #questionSidePanel div{
-    background: #fff!important;
-
-  } 
-}
 
 /* // Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {  }
+@media (max-width: 767.98px) { 
+  .field{
+    width: 5em !important;
+    height: 5em!important;
+  }
+}
 
 /* // Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {  }
+@media (max-width: 991.98px) { 
+  #AppClientTaskPanel{
+    margin: 5% 24%!important;
+    width: 50%!important;
+  }
+ }
 
 /* // Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {   
-
-}
-
-
-
-@media (min-width: 40.625em) {
-  /* line 32, ../../app/learningApps-org/components/_clusters.scss */
-  .cluster table div {
-    font-size: 1.375em !important;
+@media (max-width: 1199.98px) { 
+  body{
+    font-size: 30px!important;
   }
-}
-@media (min-width: 46.25em) {
-  /* line 32, ../../app/learningApps-org/components/_clusters.scss */
-  .cluster table div {
-    font-size: 1.625em !important;
+  .field {
+
+    padding: 0.25em !important;
   }
-}
-@media (min-width: 61.25em) {
-  /* line 32, ../../app/learningApps-org/components/_clusters.scss */
-  .cluster table div {
-    font-size: 2em !important;
+  #AppClientTaskPanel{
+    margin: 5% 38%!important;
+    width: 25%!important;
+    padding: 40px!important;
+    box-shadow: none!important;
+    font-size: 18px!important;
+  }  
+    #crossword {
+      margin: 5% 0!important;
   }
-}
-@media (min-width: 61.25em) {
-  /* line 70, ../../app/learningApps-org/components/_card.scss */
-  .card .valueDisplay .displayNumber {
-    font-size: 1.375em;
-    padding-top: 0.3em;
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* line 3, ../../app/learningApps-org/components/_usability-hint.scss */
-#usabilityHint {
-  display: none !important;
-}
-
-/* line 6, ../../app/learningApps-org/components/_clusters.scss */
-.cluster .colorOverlay {
-  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
-  opacity: 1;
-}
-/* line 9, ../../app/learningApps-org/components/_clusters.scss */
-.cluster .colorOverlay.pinColor1 {
-  background-color: transparent !important;
-}
-/* line 9, ../../app/learningApps-org/components/_clusters.scss */
-.cluster .colorOverlay.pinColor2 {
-  background-color: transparent !important;
-}
-/* line 9, ../../app/learningApps-org/components/_clusters.scss */
-.cluster .colorOverlay.pinColor3 {
-  background-color: transparent !important;
-}
-/* line 9, ../../app/learningApps-org/components/_clusters.scss */
-.cluster .colorOverlay.pinColor4 {
-  background-color: transparent !important;
-}
-/* line 9, ../../app/learningApps-org/components/_clusters.scss */
-.cluster .colorOverlay.pinColor5 {
-  background-color: transparent !important;
-}
-/* line 9, ../../app/learningApps-org/components/_clusters.scss */
-.cluster .colorOverlay.pinColor6 {
-  background-color: transparent !important;
-}
-/* line 9, ../../app/learningApps-org/components/_clusters.scss */
-.cluster .colorOverlay.pinColor7 {
-  background-color: transparent !important;
-}
-/* line 9, ../../app/learningApps-org/components/_clusters.scss */
-.cluster .colorOverlay.pinColor8 {
-  background-color: transparent !important;
-}
-
-/* line 15, ../../app/learningApps-org/components/_clusters.scss */
-.cluster {
-  box-sizing: border-box;
-}
-/* line 17, ../../app/learningApps-org/components/_clusters.scss */
-.landscape .cluster {
-  border-left: 3px solid #d9d9d9;
-}
-/* line 19, ../../app/learningApps-org/components/_clusters.scss */
-.landscape .cluster:first-of-type {
-  border-left: none;
-}
-/* line 23, ../../app/learningApps-org/components/_clusters.scss */
-.portrait .cluster {
-  border-top: 3px solid #d9d9d9;
-}
-/* line 25, ../../app/learningApps-org/components/_clusters.scss */
-.portrait .cluster:first-of-type {
-  border-top: none;
-}
-
-/* line 32, ../../app/learningApps-org/components/_clusters.scss */
-.cluster table div {
-  font-size: 1em !important;
-  line-height: 1.2em !important;
-  padding: 0.4em;
-  border: 3px solid #ffffff;
-  color: #ffffff;
-  border-radius: 8px;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
-  opacity: 0.9;
-}
-
-
-/* line 52, ../../app/learningApps-org/components/_clusters.scss */
-.cluster .pinColor1 + table div {
-  background-color: #00a3b5 !important;
-  text-shadow: 0 -1px 3px #008391;
-}
-
-/* line 52, ../../app/learningApps-org/components/_clusters.scss */
-.cluster .pinColor2 + table div {
-  background-color: #e60099 !important;
-  text-shadow: 0 -1px 3px #c20081;
-}
-
-/* line 52, ../../app/learningApps-org/components/_clusters.scss */
-.cluster .pinColor3 + table div {
-  background-color: #e66800 !important;
-  text-shadow: 0 -1px 3px #c25700;
-}
-
-/* line 52, ../../app/learningApps-org/components/_clusters.scss */
-.cluster .pinColor4 + table div {
-  background-color: #e6b900 !important;
-  text-shadow: 0 -1px 3px #c29d00;
-}
-
-/* line 52, ../../app/learningApps-org/components/_clusters.scss */
-.cluster .pinColor5 + table div {
-  background-color: #654110 !important;
-  text-shadow: 0 -1px 3px #462d0b;
-}
-
-/* line 52, ../../app/learningApps-org/components/_clusters.scss */
-.cluster .pinColor6 + table div {
-  background-color: #00a3b5 !important;
-  text-shadow: 0 -1px 3px #008391;
-}
-
-/* line 52, ../../app/learningApps-org/components/_clusters.scss */
-.cluster .pinColor7 + table div {
-  background-color: #006c78 !important;
-  text-shadow: 0 -1px 3px #004c54;
-}
-
-/* line 52, ../../app/learningApps-org/components/_clusters.scss */
-.cluster .pinColor8 + table div {
-  background-color: #8a005c !important;
-  text-shadow: 0 -1px 3px #660044;
-}
-
-/* line 3, ../../app/learningApps-org/components/_card.scss */
-.card {
-  max-width: 250px;
-  border: 2px solid #fff;
-  padding: 1% !important;
-  border-radius: 3px;
-  box-sizing: border-box;
-  box-shadow: rgba(0, 0, 0, 0.07) 0 5px 10px;
-  cursor: move !important;
-}
-/* line 14, ../../app/learningApps-org/components/_card.scss */
-.card:hover {
-  box-shadow: rgba(0, 0, 0, 0.12) 0 10px 20px;
-  -webkit-transform: scale(1.05);
-  transform: scale(1.05);
-}
-
-/* line 22, ../../app/learningApps-org/components/_card.scss */
-.card .pin.pinColor1 {
-  background-color: #00bace !important;
-}
-/* line 22, ../../app/learningApps-org/components/_card.scss */
-.card .pin.pinColor2 {
-  background-color: #ff00aa !important;
-}
-/* line 22, ../../app/learningApps-org/components/_card.scss */
-.card .pin.pinColor3 {
-  background-color: #ff7300 !important;
-}
-/* line 22, ../../app/learningApps-org/components/_card.scss */
-.card .pin.pinColor4 {
-  background-color: #ffce00 !important;
-}
-/* line 22, ../../app/learningApps-org/components/_card.scss */
-.card .pin.pinColor5 {
-  background-color: #7b4f13 !important;
-}
-/* line 22, ../../app/learningApps-org/components/_card.scss */
-.card .pin.pinColor6 {
-  background-color: #00bace !important;
-}
-/* line 22, ../../app/learningApps-org/components/_card.scss */
-.card .pin.pinColor7 {
-  background-color: #008391 !important;
-}
-/* line 22, ../../app/learningApps-org/components/_card.scss */
-.card .pin.pinColor8 {
-  background-color: #a3006d !important;
-}
-
-/* line 30, ../../app/learningApps-org/components/_card.scss */
-.card.correct {
-  border-color: #83b81a;
-}
-
-/* line 33, ../../app/learningApps-org/components/_card.scss */
-.card.wrong {
-  border-color: #f39910;
-}
-
-/* line 53, ../../app/learningApps-org/components/_card.scss */
-.card .tape {
-  background-image: url('/images/quiz/stickytape.png');
-  margin-top: 7px;
-}
-
-/* line 58, ../../app/learningApps-org/components/_card.scss */
-.card .resizeText {
-  font-size: 0.875em !important;
-  line-height: 1.4285714286em !important;
-}
-
-/* line 64, ../../app/learningApps-org/components/_card.scss */
-.card .valueDisplay {
-  overflow: hidden;
-  background:transparent;
-  *zoom: 1;
-  padding: 12px 0;
-/*  margin-bottom: -19px;*/
-}
-
-/* line 70, ../../app/learningApps-org/components/_card.scss */
-.card .valueDisplay .displayNumber {
-  display: inline-block;
-  font-size: 0.875em;
-  padding-top: 0.5em;
-  font-weight: normal !important;
-}
-
-
-/* line 81, ../../app/learningApps-org/components/_card.scss */
-.card .valueDisplay .subOne,
-.card .valueDisplay .addOne {
-  position: relative;
-  width: 30px;
-  height: 30px;
-  border: none;
-  color: #ffffff;
-  font-weight: bold;
-  background-color: #84ccd8;
-  border-radius: 50%;
-}
-/* line 91, ../../app/learningApps-org/components/_card.scss */
-.card .valueDisplay .subOne:after,
-.card .valueDisplay .addOne:after {
-  content: " ";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-}
-
-/* line 102, ../../app/learningApps-org/components/_card.scss */
-.card .valueDisplay .subOne {
-  float: left;
-}
-/* line 104, ../../app/learningApps-org/components/_card.scss */
-.card .valueDisplay .subOne:after {
-  background-image: url('/images/quiz/icon-minus@2x.gif');
-  background-size: 16px 5px;
-}
-
-/* line 109, ../../app/learningApps-org/components/_card.scss */
-.card .valueDisplay .addOne {
-  float: right;
-}
-/* line 111, ../../app/learningApps-org/components/_card.scss */
-.card .valueDisplay .addOne:after {
-  background-image: url('/images/quiz/icon-plus@2x.gif');
-  background-size: 16px 16px;
-}
-
-/* line 118, ../../app/learningApps-org/components/_card.scss */
-#fadeblack {
-  display: none !important;
-}
-
-/* line 3, ../../app/learningApps-org/components/_strahl.scss */
-#strahl {
-  height: 100%;
-}
-
-/* line 7, ../../app/learningApps-org/components/_strahl.scss */
-#achse {
-  height: 65% !important;
-  background-color: transparent !important;
-}
-
-/* line 12, ../../app/learningApps-org/components/_strahl.scss */
-.labelStroke {
-  width: 1px;
-  height: 100%;
-  background-color: #ffffff;
-}
-
-/* line 18, ../../app/learningApps-org/components/_strahl.scss */
-.labelText {
-  font-size: 0.875em;
-  -webkit-transform: rotate(-90deg);
-  transform: rotate(-90deg);
-  top: 10px;
-}
-
-/* line 24, ../../app/learningApps-org/components/_strahl.scss */
-.itemline {
-  background-image: none;
-  background-color: #b3b3b3;
-  width: 1px;
-}
-
-/* line 30, ../../app/learningApps-org/components/_strahl.scss */
-.bar {
-  border: none;
-}
-/* line 33, ../../app/learningApps-org/components/_strahl.scss */
-.bar#item0_bar {
-  background-color: #00a3b5 !important;
-}
-/* line 33, ../../app/learningApps-org/components/_strahl.scss */
-.bar#item1_bar {
-  background-color: #e60099 !important;
-}
-/* line 33, ../../app/learningApps-org/components/_strahl.scss */
-.bar#item2_bar {
-  background-color: #e66800 !important;
-}
-/* line 33, ../../app/learningApps-org/components/_strahl.scss */
-.bar#item3_bar {
-  background-color: #e6b900 !important;
-}
-/* line 33, ../../app/learningApps-org/components/_strahl.scss */
-.bar#item4_bar {
-  background-color: #654110 !important;
-}
-/* line 33, ../../app/learningApps-org/components/_strahl.scss */
-.bar#item5_bar {
-  background-color: #00a3b5 !important;
-}
-/* line 33, ../../app/learningApps-org/components/_strahl.scss */
-.bar#item6_bar {
-  background-color: #006c78 !important;
-}
-/* line 33, ../../app/learningApps-org/components/_strahl.scss */
-.bar#item7_bar {
-  background-color: #8a005c !important;
-}
-
-/* line 7, ../../app/learningApps-org/components/_task-panel.scss */
-#AppClientTaskButton {
-  display: none;
-}
-
-/* line 3, ../../app/learningApps-org/components/_checkSolutionBtn.scss */
-#checkSolutionBtn {
-  display: none;
-}
-
-#feedback {
-  display: none !important;
-}
-
-
-
-/**
- * Change request michael.hielscher@phsz.ch, 28.04.2016:
- *
- *  Für die Gruppeneinordnung mit mehreren Spalten gibt es jetzt eine spezielle Class
- *  "totalClusters3" für den speziellen Fall, wenn genau 3 Spalten in der Übung sind. In
- *  diesem Fall werden von LearningApps jetzt "Ampel-Farben" grün, gelb, rot verwendet
- *  statt wie bisher grün, rot, blau. Häufig passt das besser zu typischen Fragen mit
- *  3 Gruppen.
- *
- *  Ich habe dazu deine vorhandenen Classes kopiert und ein .totalClusters3 vorangestellt.
- *  In diesem Fall werden die Farben 2 und 3 vertauscht:
- */
-/* line 71, ../../app/learningApps-org/components/_clusters.scss */
-.totalClusters3 .cluster .pinColor2 + table div {
-  background-color: #e66800 !important;
-  text-shadow: 0 -1px 3px #c25700;
-}
-
-/* line 75, ../../app/learningApps-org/components/_clusters.scss */
-.totalClusters3 .cluster .pinColor3 + table div {
-  background-color: #e60099 !important;
-  text-shadow: 0 -1px 3px #c20081;
-}
-
-/* line 79, ../../app/learningApps-org/components/_clusters.scss */
-.totalClusters3 .card .pin.pinColor2 {
-  border: 1px solid #e66800 !important;
-}
-
-/* line 82, ../../app/learningApps-org/components/_clusters.scss */
-.totalClusters3 .card .pin.pinColor3 {
-  border: 1px solid #e60099 !important;
-}
-
-.totalClusters3 .card .pin.pinColor2 {
-  background-color: #e66800 !important;
-}
-
-/* line 82, ../../app/learningApps-org/components/_clusters.scss */
-.totalClusters3 .card .pin.pinColor3 {
-  background-color: #e60099 !important;
-}
-
-/* line 37, ../../app/learningApps-org/components/_card.scss */
-.card.correct .pin,
-.card.wrong .pin {
-  background-size: 50% auto !important;
-  background-position: 50% 50% !important;
-  background-repeat: no-repeat !important;
-}
-
-/* line 43, ../../app/learningApps-org/components/_card.scss */
-.card.correct .pin,
-.totalClusters3 .card.correct .pin.pinColor1,
-.totalClusters3 .card.correct .pin.pinColor2,
-.totalClusters3 .card.correct .pin.pinColor3 {
-  border-color: #83b81a !important;
-  background-color: #83b81a !important;
-  background-image: url('/images/icon-buttons/checkmark-fff.gif') !important;
-}
-
-/* line 47, ../../app/learningApps-org/components/_card.scss */
-.card.wrong .pin,
-.totalClusters3 .card.wrong .pin.pinColor1,
-.totalClusters3 .card.wrong .pin.pinColor2,
-.totalClusters3 .card.wrong .pin.pinColor3 {
-  border-color: #f39910 !important;
-  background-color: #f39910 !important;
-  background-image: url('/images/icon-buttons/close-fff.gif') !important;
-}
-
-@-webkit-keyframes pulse {
-  from {
-    -webkit-transform: scale(1.0);
-  }
-  50% {
-    -webkit-transform: scale(1.025);
-  }
-  to { 
-    -webkit-transform: scale(1.0);
-  }
-}
-@-moz-keyframes pulse {
-  from {
-    -moz-transform: scale(1.0);
-  }
-  50% {
-    -moz-transform: scale(1.025);
-  }
-  to { 
-    -moz-transform: scale(1.0);
-  }
-}
-@-ms-keyframes pulse {
-  from {
-    -ms-transform: scale(1.0);
-  }
-  50% {
-    -ms-transform: scale(1.025);
-  }
-  to { 
-    -ms-transform: scale(1.0);
-  }
-}
-@keyframes pulse {
-  from {
-    box-shadow: rgba(0, 0, 0, 0.07) 2px 5px 10px;
-    transform: scale(1.0);
-  }
-  50% {
-    box-shadow: rgba(0, 0, 0, 0.2) 2px 5px 10px;
-    transform: scale(1.025);
-  }
-  to { 
-    box-shadow: rgba(0, 0, 0, 0.07) 2px 5px 10px;
-    transform: scale(1.0);
-  }
-}
-.card.newcard {
-  border:2px solid #999;
-
-  -webkit-animation-name: pulse; 
-  -webkit-animation-duration: 1s; 
-  -webkit-animation-iteration-count: infinite; 
-
-  -moz-animation-name: pulse; 
-  -moz-animation-duration: 1s; 
-  -moz-animation-iteration-count: infinite; 
-
-  -ms-animation-name: pulse; 
-  -ms-animation-duration: 1s; 
-  -ms-animation-iteration-count: infinite; 
-
-  animation-name: pulse; 
-  animation-duration: 1s; 
-  animation-iteration-count: infinite; 
-}
-.card.newcard .pin {
-  display:none;
 }
 
