@@ -11,12 +11,6 @@
   --light-gray-0: #dddd;
   --dark: #212121;
   --dark-0:#2f2f2f;
-  
-  --breakpoint-xs: 300PX;
-  --breakpoint-sm: 576px;
-  --breakpoint-md: 768px;
-  --breakpoint-lg: 992px;
-  --breakpoint-xl: 1200px;
 }
 
 /* line 11, ../../app/learningApps-org/base/_base.scss */
@@ -242,7 +236,7 @@ opacity: 0.5!important;
   .field{
     width: 2.5em !important;
     height: 2.5em!important;
-    padding: 10pc !important;
+    padding: 10px !important;
   }
   #questionSidePanel{
     width: 100%!important;
