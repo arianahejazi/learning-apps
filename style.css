@@ -224,9 +224,10 @@ opacity: 0.5!important;
   box-shadow: 0px 0px 0px 2px rgb(0, 173, 130)!important; 
 }
 
+/* ************Responsive*************** */
 
 /* // Small devices (landscape phones, less than 768px) */
-@media screen and(max-width: 1199.98px) { 
+@media  (max-width: 1199.98px) { 
   body{
     font-size: 30px!important;
   }
@@ -242,12 +243,12 @@ opacity: 0.5!important;
   }
 }
 
-
-/* ************Responsive*************** */
  /* // Extra small devices (portrait phones, less than 576px) */
- @media screen and (max-width: 575.98px) {  
+ @media (max-width: 575.98px) {  
   .field{
     width: 3.5em !important;
     height: 3.5em!important;
   }
+
 }
+
