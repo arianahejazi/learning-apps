@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @charset "UTF-8";
 
 :root {
@@ -81,7 +88,8 @@ h1, h2, h3, h4, h5, h6 {
   margin: 5% 15%!important;
   width: 70% !important;
   padding: 25px!important;
-  box-shadow:none !important;
+  -webkit-box-shadow:none !important;
+          box-shadow:none !important;
 }
 #AppClientTaskPanel p{
   margin: 0 0 15px !important;
@@ -100,7 +108,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff!important;
   background: rgb(15, 108, 227);
   border-radius: 20px!important;
-  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 #AppClientTaskPanel div button:hover{
   opacity: 0.5!important;       
@@ -108,7 +117,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* grid body */
 .highlight{
-  box-shadow: 0px 0px 0px 2px rgb(253, 122, 145) !important;
+  -webkit-box-shadow: 0px 0px 0px 2px rgb(253, 122, 145) !important;
+          box-shadow: 0px 0px 0px 2px rgb(253, 122, 145) !important;
 }
 #innerCrossword .filled{
   border: 1px solid #b9b9b9!important;
@@ -129,7 +139,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Arial!important;
   font-weight: bold!important;
   border-radius: 3px!important;
-  box-shadow: 0px 0px 2px #c5c5c5dd!important;
+  -webkit-box-shadow: 0px 0px 2px #c5c5c5dd!important;
+          box-shadow: 0px 0px 2px #c5c5c5dd!important;
   -webkit-border-radius: 3px!important;
   -moz-border-radius: 3px!important;
   -ms-border-radius: 3px!important;
@@ -137,7 +148,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #questionSidePanel{
-  box-shadow: none!important;
+  -webkit-box-shadow: none!important;
+          box-shadow: none!important;
   border-radius: 8px!important;
   border: none!important;
   background: #ffffff !important;
@@ -177,7 +189,8 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto !important;
   border-radius: 3px!important;
   border: 3px solid #cecece !important;
-  box-shadow: 0px 0px 7px 1px #ddd !important;
+  -webkit-box-shadow: 0px 0px 7px 1px #ddd !important;
+          box-shadow: 0px 0px 7px 1px #ddd !important;
 }
 
 #questionDisplay div:nth-child(2){
@@ -213,7 +226,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff!important;
   background: rgb(15, 108, 227);
   border-radius: 20px!important;
-  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 
 #questionDisplay input[type=button]:hover{
@@ -221,7 +235,8 @@ opacity: 0.5!important;
 }
 
 .blink {
-  box-shadow: 0px 0px 0px 2px rgb(0, 173, 130)!important; 
+  -webkit-box-shadow: 0px 0px 0px 2px rgb(0, 173, 130)!important;
+          box-shadow: 0px 0px 0px 2px rgb(0, 173, 130)!important; 
 }
 
 /* ************Responsive*************** */
@@ -251,4 +266,3 @@ opacity: 0.5!important;
   }
 
 }
-
