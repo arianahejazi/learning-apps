@@ -126,11 +126,13 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* grid body */
-.highlight{
+#innerCrossword .filled .highlight{
   animation: blink 1s step-start 0s infinite;
     -webkit-animation: blink 1s step-start 0s infinite;
   background-color: rgb(253, 122, 145) !important;
 }
+
+
 #innerCrossword .filled{
   border: 1px solid #b9b9b9!important;
   background: #ffffff  !important;
@@ -247,15 +249,26 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #questionDisplay input[type=button]:hover{
-opacity: 0.5;
+opacity: 0.5!important;
 }
+
 
 .blink {
-  background: rgb(255, 187, 76)!important;
-  animation: blink 1s step-start 0s infinite;
-    -webkit-animation: blink 1s step-start 0s infinite;
+	text-decoration: blink!important;
+	-webkit-animation-name: blinker!important;
+	-webkit-animation-duration: 0.8s!important;
+	-webkit-animation-iteration-count:infinite!important;
+	-webkit-animation-timing-function:ease-in-out!important;
+	-webkit-animation-direction: alternate!important;
 }
-
+@keyframes blinker {
+  from {
+    box-shadow: 0px 0px 0px 2px #ffbb4c!important;
+    }
+  to {
+    box-shadow: 0px 0px 0px 2px #f1d6a9!important;
+    }
+}
 
 /* ************Responsive*************** */
 
