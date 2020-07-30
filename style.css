@@ -160,7 +160,6 @@ h1, h2, h3, h4, h5, h6 {
   padding: 6px !important;
   margin: 5px !important;
   background: rgb(185 185 185)!important;
-  margin-bottom: 15px !important;
 }
 
 #questionDisplay{
@@ -181,6 +180,7 @@ h1, h2, h3, h4, h5, h6 {
   border: 2px inset rgb(249 249 249) !important;
   max-height: 200px;
   width: 200px;
+  margin-bottom: 15px !important;
 }
 
 #questionDisplay div:nth-child(2){
@@ -225,7 +225,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #questionDisplay input[type=button]:hover{
-opacity: 0.5!important;
+  opacity: 0.5!important;
+}
+
+#questionDisplay div:last-child{
+  padding: 5px calc(50% - 30%) !important;
 }
 
 .blink {
