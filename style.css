@@ -229,7 +229,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #questionDisplay div:last-child{
-  padding: 5px calc(50% - 30%) !important;
+  margin: 5px calc(50% - 30%) !important;
 }
 
 .blink {
