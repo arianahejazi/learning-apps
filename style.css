@@ -142,11 +142,12 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto 0 !important;
   position: relative !important;
   left: 0 !important;
-  top: 20px !important
+  top: 0 !important
 }
 
 #questionSidePanel div{
   opacity: 1 !important;
+  height: 100vh;
 }
 
 #questionSidePanel div:nth-child(1){
@@ -159,14 +160,14 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 25px!important;
   padding: 6px !important;
   margin: 5px !important;
-  background: rgb(249 42 78)!important;
+  background: rgb(185 185 185)!important;
 
 }
 
 #questionDisplay{
   border:1px solid #b0afaf!important;
   border-radius: 8px!important;
-  padding: 50px!important;
+  padding: 20px 50px!important;
 } 
 
 .inputElement{
@@ -177,21 +178,24 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff!important;
   margin: 0px auto!important;
   border-radius: 3px!important;
-  border: 2px inset rgb(249 249 249);
+  border: 2px inset rgb(249 249 249) !important;
 }
 
 #questionDisplay div:nth-child(2){
   height: 50px!important;
 }
 
-#questionDisplay b{
+#questionDisplay b:nth-child(2){
   text-align: center!important;
-  display: block!important;
   font-size: 20px!important;
 } 
 
+#questionDisplay b:nth-child(2){
+  display: none!important;
+} 
+
 #questionDisplay .filled{
-  margin: 0px 4px!important;
+  margin:4px!important;
   background: #fff!important;
   height: 50px !important;
   border-radius: 2px solid #c1c1c1!important;
@@ -229,10 +233,8 @@ opacity: 0.5!important;
 
 
 #checkSolutionBtn{
-  display: none !important;
 }
 #AppClientTaskButton a img{
-  display: none !important;
 }
 /* ************Responsive*************** */
 @media screen and (min-width: 28.75em) {
