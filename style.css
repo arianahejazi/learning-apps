@@ -160,7 +160,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 6px !important;
   margin: 5px !important;
   background: rgb(185 185 185)!important;
-
+  margin-bottom: 15px !important;
 }
 
 #questionDisplay{
@@ -191,14 +191,15 @@ h1, h2, h3, h4, h5, h6 {
   display: block!important;
   text-align: center!important;
   font-size: 20px!important;
+  padding: 0 0 15px 0!important;
+}
+
+#questionDisplay b{
+  display: none;
 }
 
 #questionDisplay br{
   display: none !important;
-}
-
-#questionDisplay b:nth-child(2){
-  display: none!important;
 } 
 
 #questionDisplay .filled{
