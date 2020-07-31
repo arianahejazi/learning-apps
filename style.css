@@ -1,18 +1,5 @@
 @charset "UTF-8";
 
-:root {
-  --tifany: #1DE9B6;
-  --fark-tifany:#00BFA5;
-  --magenta: #E91D50;
-  --light-magenta-0:#ffccd8 ;
-
-
-  --light-red-5:#ffb6b6;
-  --light-gray-0: #dddd;
-  --dark: #212121;
-  --dark-0:#2f2f2f;
-}
-
 /* line 11, ../../app/learningApps-org/base/_base.scss */
 body, html {
   background-image: none !important;
