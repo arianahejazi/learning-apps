@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #questionDisplay{
-  border:1px solid #b0afaf!important;
+  border:1px solid var(--light-gray)!important;
   border-radius: 8px!important;
   padding: 20px 50px!important;
   height: 100vh!important;
