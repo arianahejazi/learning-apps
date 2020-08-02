@@ -1,5 +1,22 @@
-@charset "UTF-8";
-
+:root {
+  --tifany:#1DE9B6;
+  --light-tifany: #B2DFDB;
+  --light-orange-10:#ffcd7b;
+  --light-orange:#ffaa20;
+  --orange:#ff9e00;
+  --light-blue:#2e80e9;
+  --blue : #0f6ce3;
+  --light-gray-10: #f9f9f9;
+  --light-gray: #d2d2d2;
+  --gray:#959595;
+  --white : #ffffff;
+  --light-black :#353535;
+  --black: #000000;
+  --light-green:#b0e4b4;
+  --dark-green:#3b533d;
+  --light-red:#ffacaa;
+  --red:#fd7a91;
+}
 /* line 11, ../../app/learningApps-org/base/_base.scss */
 body, html {
   background-image: none !important;
@@ -9,28 +26,11 @@ body, html {
 /* line 15, ../../app/learningApps-org/base/_base.scss */
 body {
   font-size: 20px !important;
-    background-color: #f5f5f5 !important;
+  background-color: var(--light-gray-10) !important;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
-  color: #565656 !important;
-}
-
-/* line 24, ../../app/learningApps-org/base/_base.scss */
-body.bg-1 {
-  background-image: url('/images/quiz/bg-1.gif') !important;
-}
-
-/* line 24, ../../app/learningApps-org/base/_base.scss */
-body.bg-2 {
-  /* background-image: url('/images/quiz/bg-2.gif') !important; */
-  /* background: #41526b !important; */
-  background: #41526be0 !important;
-}
-
-/* line 24, ../../app/learningApps-org/base/_base.scss */
-body.bg-3 {
-  background-image: url('/images/quiz/bg-3.gif') !important;
+  color: var(--light-black) !important;
 }
 
 /* line 23, ../../app/learningApps-org/base/_typography.scss */
@@ -39,80 +39,41 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal!important;
 }
 
-/* *****Ariana Do********* */
-
 /* body */
 #wrapper{
-  background: #B2DFDB!important;
+  background: var(--light-tifany)!important;
 }
 #crossword{
   margin: 10% 0!important; 
   height: 628px!important; 
 }
 
-
-/* meseage */
-#AppClientTaskPanel{
-  border-radius: 8px !important;
-  background-color: #ffffff!important;
-  border-top: 9px solid rgb(255, 158, 0)!important;
-  border-left: 1px solid #dddd!important;
-  border-right: 1px solid #dddd!important;
-  border-bottom: 1px solid #dddd!important;
-  padding: 25px!important;
-  -webkit-box-shadow:none !important;
-          box-shadow:none !important;
-}
-#AppClientTaskPanel p{
-  margin: 0 0 15px !important;
-  color: #2f2f2f!important;
-}
-#AppClientTaskPanel div{
-  color: #4c4c4c!important;
-  text-align: justify!important;
-}
-#AppClientTaskPanel div button{
-  font-size: 120%!important;
-  width: 100%!important;
-  margin: 25px 0 0!important;
-  padding: 5px!important;
-  border: none!important;
-  color: #fff!important;
-  background: rgb(15, 108, 227);
-  border-radius: 20px!important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
-}
-#AppClientTaskPanel div button:hover{
-  opacity: 0.5!important;       
-}
-
 /* grid body */
 .highlight{
-  -webkit-box-shadow: 0px 0px 0px 2px rgb(253, 122, 145) !important;
-          box-shadow: 0px 0px 0px 2px rgb(253, 122, 145) !important;
+  -webkit-box-shadow: 0px 0px 0px 2px var(--red) !important;
+          box-shadow: 0px 0px 0px 2px var(--red) !important;
 }
 #innerCrossword .filled{
-  border: 1px solid #b9b9b9!important;
-  background: #ffffff  !important;
+  border: 1px solid var(--light-gray)!important;
+  background: var(--white)  !important;
   cursor: pointer!important;
   border-radius: 5px!important;
-  color: #212121;  
+  color: var(--light-black);  
   /* box-shadow: none!important; */
 }
    
 /* modal */
 .field {
-  border: 1px solid #dcdcdcdd!important;
-  background: #E0F2F1!important;
+  border: 1px solid var(--light-gray)!important;
+  background: var(--light-tifany)!important;
   vertical-align: middle!important;
   text-align: center!important;
   padding: 15px!important;
   font-family: Arial!important;
   font-weight: bold!important;
   border-radius: 3px!important;
-  -webkit-box-shadow: 0px 0px 2px #c5c5c5dd!important;
-          box-shadow: 0px 0px 2px #c5c5c5dd!important;
+  -webkit-box-shadow: 0px 0px 2px var(--light-gray)!important;
+          box-shadow: 0px 0px 2px var(--light-gray)!important;
   -webkit-border-radius: 3px!important;
   -moz-border-radius: 3px!important;
   -ms-border-radius: 3px!important;
@@ -124,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: none!important;
   border-radius: 8px!important;
   border: none!important;
-  background: #fff!important;
+  background: var(--white)!important;
   width: 45%!important;
   margin: 0 auto 0 !important;
   position: relative !important;
@@ -161,7 +122,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #questionDisplay div img{
-  background: #fff!important;
+  background: var(--white)!important;
   margin: 0px auto!important;
   border-radius: 3px!important;
   border: 2px inset rgb(249 249 249) !important;
@@ -191,11 +152,14 @@ h1, h2, h3, h4, h5, h6 {
 
 #questionDisplay .filled{
   margin:4px!important;
-  background: #fff!important;
+  background: var(--white)!important;
   height: 50px !important;
-  border-radius: 2px solid #c1c1c1!important;
+  border-radius: 2px!important;
   padding: 10px !important;
-
+  -webkit-border-radius: 2px!important;
+  -moz-border-radius: 2px!important;
+  -ms-border-radius: 2px!important;
+  -o-border-radius: 2px!important;
 }
 
 #questionDisplay input[type=button]{
@@ -204,8 +168,8 @@ h1, h2, h3, h4, h5, h6 {
   margin: 25px 0 0!important;
   padding: 5px!important;
   border: none!important;
-  color: #fff!important;
-  background: rgb(15, 108, 227);
+  color: var(--white)!important;
+  background: var(--blue);
   border-radius: 20px!important;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
@@ -220,16 +184,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .blink {
-  -webkit-box-shadow: 0 0 0px 3px #1de9b6!important;
-          box-shadow: 0 0 0px 3px #1de9b6!important; 
+  -webkit-box-shadow: 0 0 0px 3px var(--tifany)!important;
+          box-shadow: 0 0 0px 3px var(--tifany)!important; 
 }
 
 @keyframes blink{
   50%{
-   background-color: #ffffff!important; 
+   background-color: var(--white)!important; 
   }
 }
-
 
 #checkSolutionBtn{
   display: none !important;
@@ -237,7 +200,9 @@ h1, h2, h3, h4, h5, h6 {
 #AppClientTaskButton a img{
   display: none !important;
 }
+
 /* ************Responsive*************** */
+
 @media screen and (min-width: 28.75em) {
   .field{
     width: 2.5em !important;
@@ -260,4 +225,81 @@ h1, h2, h3, h4, h5, h6 {
   #innerCrossword .filled{
     padding: 30px !important;
   }
+}
+
+/* check solve button */
+#checkSolutionBtn{
+  background: var(--light-green)!important;
+  color: var(--dark-green)!important;
+  padding: 21px 23px!important;
+  width: 80px!important;
+  height: 80px!important;
+  -webkit-box-shadow: none!important;
+          box-shadow: none!important;
+  font-size: 30px!important;
+  border: 2px solid var(--dark-green)!important;
+  margin: 5px 10px!important;
+}
+
+#checkSolutionBtn:hover{
+  opacity: 0.7!important;
+}
+
+/* meseage */
+#AppClientTaskPanel{
+  border-radius: 8px !important;
+  background-color: var(--white)!important;
+  border-top: 9px solid var(--orange)!important;
+  border-left: 1px solid var(--light-gray)!important;
+  border-right: 1px solid var(--light-gray)!important;
+  border-bottom: 1px solid var(--light-gray)!important;
+  padding: 25px!important;
+  -webkit-box-shadow:none !important;
+  box-shadow:none !important;
+  -webkit-border-radius: 8px !important;
+  -moz-border-radius: 8px !important;
+  -ms-border-radius: 8px !important;
+  -o-border-radius: 8px !important;
+}
+
+#AppClientTaskPanel p{
+  margin: 0 0 15px !important;
+  color: var(--light-black)!important;
+}
+
+#AppClientTaskPanel div{
+  color: var(--light-black)!important;
+  text-align: justify!important;
+}
+
+#AppClientTaskPanel div button{
+  font-size: 120%!important;
+  width: 100%!important;
+  margin: 25px 0 0!important;
+  padding: 5px!important;
+  border: none!important;
+  color: var(--white)!important;
+  background: var(--blue);
+  border-radius: 20px!important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+#AppClientTaskPanel div button:hover{
+  opacity: 0.5!important;       
+}
+
+.example {
+    display: -ms-grid;
+    display: grid;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background: -o-linear-gradient(top, var(--white),var(--black));
+    background: -webkit-gradient(linear, left top, left bottom, from(var(--white),var(--black)));
+    background: linear-gradient(to bottom, var(--white),var(--black));
 }
