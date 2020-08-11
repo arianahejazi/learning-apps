@@ -64,8 +64,7 @@ h1, h2, h3, h4, h5, h6 {
    
 /* modal */
 .field {
-  border: 1px solid var(--light-gray)!important;
-  background: var(--light-tifany)!important;
+  border: 1px solid var(--light-gray-10)!important;
   vertical-align: middle!important;
   text-align: center!important;
   padding: 15px!important;
