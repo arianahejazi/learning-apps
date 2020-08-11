@@ -26,7 +26,6 @@ body, html {
 /* line 15, ../../app/learningApps-org/base/_base.scss */
 body {
   font-size: 20px !important;
-  background-color: var(--light-gray-10) !important;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -41,7 +40,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* body */
 #wrapper{
-  background: var(--light-tifany)!important;
+  background-color: var(--light-gray-10) !important;
+
 }
 #crossword{
   margin: 10% 0!important; 
