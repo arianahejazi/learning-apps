@@ -306,3 +306,8 @@ h1, h2, h3, h4, h5, h6 {
     background: -webkit-gradient(linear, left top, left bottom, from(var(--white),var(--black)));
     background: linear-gradient(to bottom, var(--white),var(--black));
 }
+
+/* display none of full screen */
+#AppClientFullscreenButton{
+    display: none !important;
+}
