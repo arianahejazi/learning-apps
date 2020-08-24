@@ -207,11 +207,6 @@ h1, h2, h3, h4, h5, h6 {
 /* ************Responsive*************** */
 
 @media screen and (min-width: 28.75em) {
-  .field{
-    width: 2.5em !important;
-    height: 2.5em!important;
-    padding: 10px !important;
-  }
   #questionSidePanel{
     width: 100%!important;
   }
@@ -220,10 +215,6 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (min-width: 40.5em) { 
   #questionSidePanel{
     width: 40%!important;
-  }
-  .field{
-    width: 4.5em !important;
-    height: 4.5em!important;
   }
   #innerCrossword .filled{
     padding: 30px !important;
