@@ -63,12 +63,12 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer!important;
   border-radius: 5px!important;
   color: var(--light-black);  
-  /* box-shadow: none!important; */
+  padding:4px !important;
 }
    
 /* modal */
 .field {
-  paddinh:4px !important;
+  paddinh:15px !important;
   border: 1px solid var(--light-gray-10)!important;
   vertical-align: middle!important;
   text-align: center!important;
@@ -212,9 +212,6 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (min-width: 40.5em) { 
   #questionSidePanel{
     width: 40%!important;
-  }
-  #innerCrossword .filled{
-    padding: 30px !important;
   }
 }
 
